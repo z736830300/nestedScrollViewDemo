@@ -1,0 +1,22 @@
+git log 查看提交历史
+git reflog 记录你的每一次命令
+
+git reset --hard 版本号 或者 head^ :  一个‘^’表示当前版本的前一个版本
+git checkout -- file 丢弃工作区的修改
+git reset HEAD <file> 添加到了暂存区时，想丢弃修改
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>或者git switch <name>
+
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+git stash
+git stash list
+git stash apply  git stash drop
+git stash pop

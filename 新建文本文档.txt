@@ -1,0 +1,10 @@
+在element-UI table中 未被Object.defineProperty劫持的数据，可以响应
+在element-UI form中 自动验证的问题
+
+HTML里的pre元素，可定义预格式化的文本。在pre元素中的文本会保留空格和换行符。文本显现为等宽字体
+
+flutter 通过通知打开App，在监听回调中回重绘INdexWidge，造成旧的context.state == null.
+
+flutter tabbar 当点击tab时，如果之前有tabview页面未曾渲染，会触发当前tab所对应的tabview之前一个tabview渲染
+
+
